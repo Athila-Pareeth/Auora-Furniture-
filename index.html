@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Furniture site</title>
+    <link rel="stylesheet" href="style.css">
+     <!-- bootstrap link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+   <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Edu+VIC+WA+NT+Beginner:wght@400..700&family=Grey+Qo&family=Gupter:wght@400;500;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Whisper&display=swap" rel="stylesheet">
+ <!-- font awesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<style>
+    .btn-hover:hover {
+      background-color:rgba(235, 243, 235, 0.951);
+      color: black; 
+      border-color: #495057; 
+    }
+  </style>
+<body>
+    <!-- fav icon -->
+   <div class="row" style="background-color: rgb(164, 187, 127);">
+    <div class="col-4 p-3"><h1 style="font-family: Anton, sans-serif;">Auora <i class="fa-solid fa-couch"></i></h1>
+    </div>
+
+    <div class="col-4 p-3"> <!-- forms -->
+        <nav class="navbar bg-body-tertiary">
+           <div class="container-fluid"> 
+             <form class="d-flex" role="search">
+               <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+               <button class="btn btn-outline-dark" type="submit">Search</button>
+             </form>
+           </div>
+         </nav></div>
+    <div class="col-4 text-end p-3">
+        <button type="button" class="btn btn-dark btn-hover">Log in</button>
+        <button type="button" class="btn btn-dark btn-hover">Sign up</button>
+</div>
+
+   <img src="https://cdn.pixabay.com/photo/2018/01/04/03/26/inside-3059814_1280.jpg" alt="bg img" width="100%" height="700px">
+   <h2 style="font-family: Edu VIC WA NT Beginner, cursive; text-align: center;" class="my-5"><u>POPULAR COLLECTIONS</u></h2>
+  
+
+   <div class="row" style=" background: linear-gradient(#32554F,#457C60,#75A165);">
+    <div class="col shadow border border-3 mb-3 p-3 m-3"><img src="https://cdn.pixabay.com/photo/2018/10/09/14/58/chair-3735168_640.jpg" alt="chair" width="100%" height="360px">
+    <h3 style="font-family: Edu VIC WA NT Beginner, cursive;">Contemporary Lounge Chair</h3>
+<p class="text-justify"> A sleek and modern lounge chair that blends comfort with style. The curved wooden frame supports a cushioned seat, making it a perfect accent piece for any living room or office. Its minimalist design and clean lines make it a standout feature in contemporary spaces.</p></div>
+    <div class="col shadow-drak border border-2 mb-3 p-3 m-3"><img src="https://cdn.shopify.com/s/files/1/0743/6750/0596/products/DariaCOD.jpg?v=1681473377&width=360" alt="dresser"  width="100%" height="360px">
+    <h3 style="font-family: Edu VIC WA NT Beginner, cursive;"> Rustic Dresser</h3>
+<p class="text-justify">This rustic dresser combines natural wood textures with a sleek white frame, offering ample storage with a touch of rustic charm. Its simple yet elegant design fits seamlessly into any bedroom or hallway, providing both functionality and aesthetic appeal.</p></div>
+    <div class="col  shadow-drak border border-2 mb-3 p-3 m-3"><img src="https://cdn.pixabay.com/photo/2016/11/19/13/06/bed-1839184_960_720.jpg" alt="bedroom"  width="100%" height="360px">
+    <h3 style="font-family: Edu VIC WA NT Beginner, cursive;"> Modern Bed</h3>
+<p class="text-justify"> A luxurious bed that brings a modern, sophisticated look to your bedroom. The bed features a tufted headboard and a low-profile design, making it both comfortable and stylish. Its neutral tones make it versatile, easily blending with various decor styles.</p></div>
+    <div class="col  shadow-drak border border-2 mb-3 p-3 m-3"><img src="https://cdn.pixabay.com/photo/2015/05/31/12/50/table-791584_640.jpg" alt="table"  width="100%" height="360px">
+    <h3 style="font-family: Edu VIC WA NT Beginner, cursive;">Minimalist Coffee Table</h3>
+<p class="text-justify">This minimalist coffee table is a versatile piece that adds functionality to your living space. With a simple white finish and sturdy construction, it’s perfect for holding books, decor, or your morning coffee. The table’s compact design makes it ideal for small spaces.</p></div>
+   </div>
+
+   <h2 style="font-family: Edu VIC WA NT Beginner, cursive; text-align: center;" class="my-5"><U>TRENDY PRODUCTS</U></h2>
+   <div class="row" style="background-color: rgb(164, 187, 127);">
+
+    <!-- carousel -->
+
+    <div class="col mx-3">
+        <div id="carouselExampleCaptions" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="https://cdn.pixabay.com/photo/2023/12/31/15/42/living-room-8480223_1280.jpg" class="d-block w-100" alt="sofa" width="100%" height="350px">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Modern Sectional Sofa</h5>
+            
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="https://cdn.pixabay.com/photo/2013/09/26/11/49/sofa-186633_640.jpg" class="d-block w-100" alt="sofa" width="100%" height="350px">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Classic Leather Sofa</h5>
+                  
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="https://www.createspaces.in/backend/assets/uploads/products/products20230509070523.jpeg" class="d-block w-100" alt="sofa" width="100%" height="350px">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5 > Mid-Century Modern Sofa</h5>
+                  
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </div>
+
+    <div class="col">
+        <div id="carouselExampleCaptions1" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions1" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions1" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions1" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="https://i.etsystatic.com/34658537/r/il/1b8321/3855229733/il_570xN.3855229733_j85v.jpg" class="d-block w-100" alt="bed" width="100%" height="350px">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Platform Bed</h5>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="https://cdn.pixabay.com/photo/2020/11/24/11/36/bedroom-5772286_640.jpg" class="d-block w-100" alt="bed" width="100%" height="350px">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Upholstered Bed</h5>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="https://www.ulcdn.net/images/products/921588/product/Zoey_Storage_Bed_Queen_Classic_Walnut_LP.jpg?1722319599" class="d-block w-100" alt="bed" width="100%" height="350px">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5> Storage Bed</h5>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions1" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions1" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </div>
+
+    <div class="col">
+      <div id="carouselExampleCaptions2" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions2" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions2" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions2" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://rukminim2.flixcart.com/image/612/612/xif0q/dining-table/x/l/w/8-seater-plywood-dt-12-ng-decor-white-original-imagmnh7ywjvr6jf.jpeg?q=70" class="d-block w-100" alt="table" width="100%" height="350px">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Extendable Dining Table</h5>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="https://m.media-amazon.com/images/I/81RlMkLcvhL._SX679_.jpg" class="d-block w-100" alt="table" width="100%" height="350px">
+            <div class="carousel-caption d-none d-md-block">
+              <h5> Round and Oval Dining Table</h5>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRq0lpBobempra03Yv94BJK8k9UNLP7qxe-GQ&s" class="d-block w-100" alt="table" width="100%" height="350px">
+            <div class="carousel-caption d-none d-md-block">
+              <h5> wood Dining Table</h5>
+              
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions2" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions2" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+   </div>
+   <h3 style="font-family: Edu VIC WA NT Beginner, cursive; text-align: center;" class="mt-5"><u>EXPLORE ESSENTIAL HOME FURNITURE</u></h3>
+   <h3 style="font-family: Grey Qo, cursive;;text-align: center">Design Your Home Decor, Your Way</h3>
+
+
+   <!-- cards -->
+
+
+    <div class="row p-3 m-2 text-center" style="background: linear-gradient(#32554F,#457C60,#75A165);";>
+      <div class="col mx-5 p-3">
+        <div class="card" style="width: 18rem;">
+          <img src="https://cdn.pixabay.com/photo/2020/10/18/09/16/bedroom-5664221_640.jpg" class="card-img-top" alt="bed" width="100%" height="350px">
+          <div class="card-body">
+            <h5 class="card-title">Bed</h5>
+            <p class="card-text">From Rs 24,999</p>
+            <a href="#" class="btn btn-primary">Buy Now</a>
+          </div>
+        </div>
+      </div>
+      <div class="col p-3 ">
+        <div class="card" style="width: 18rem;">
+          <img src="https://cdn.pixabay.com/photo/2017/08/02/01/01/living-room-2569325_640.jpg" class="card-img-top" alt="sofa"  width="100%" height="350px">
+          <div class="card-body">
+            <h5 class="card-title">Sofa Sets</h5>
+            <p class="card-text">From Rs 19,999</p>
+            <a href="#" class="btn btn-primary">Buy Now</a>
+          </div>
+        </div>
+      </div>
+      <div class="col p-3"><div class="card" style="width: 18rem;">
+        <img src="https://cdn.pixabay.com/photo/2015/04/18/13/22/dining-table-728723_640.jpg" class="card-img-top" alt="dining table" width="100%" height="350px">
+        <div class="card-body">
+          <h5 class="card-title">Dining Table</h5>
+          <p class="card-text">From Rs 15,999</p>
+          <a href="#" class="btn btn-primary">Buy Now</a>
+        </div>
+      </div></div>
+      <div class="col p-3"><div class="card" style="width: 18rem;">
+        <img src="https://cdn.pixabay.com/photo/2021/05/28/07/38/bedroom-6290104_640.jpg" class="card-img-top" alt="Wardrobes
+        " width="100%" height="350px">
+        <div class="card-body">
+          <h5 class="card-title">Wardrobes
+          </h5>
+          <p class="card-text">From Rs 18,999</p>
+          <a href="#" class="btn btn-primary">Buy Now</a>
+        </div>
+      </div></div>
+    </div>
+
+    <div class="row p-3 m-2 text-center" style="background: linear-gradient(#32554F,#457C60,#75A165);";>
+      <div class="col mx-5 p-3">
+        <div class="card" style="width: 18rem;">
+          <img src="https://cdn.pixabay.com/photo/2014/05/02/12/45/ceiling-lamp-335975_1280.jpg" class="card-img-top" alt="Lamp & Lighting
+          "width="100%" height="350px">
+          <div class="card-body">
+            <h5 class="card-title">Lamp & Lighting
+            </h5>
+            <p class="card-text">From Rs 1,999
+            </p>
+            <a href="#" class="btn btn-primary">Buy Now</a>
+          </div>
+        </div>
+      </div>
+      <div class="col p-3">
+        <div class="card" style="width: 18rem;">
+          <img src="https://cdn.pixabay.com/photo/2015/05/31/10/58/cup-791072_640.jpg" class="card-img-top" alt="Home Decor" width="100%" height="350px">
+          <div class="card-body">
+            <h5 class="card-title">Home Decor</h5>
+            <p class="card-text">From Rs 2,299</p>
+            <a href="#" class="btn btn-primary">Buy Now</a>
+          </div>
+        </div>
+      </div>
+      <div class="col p-3">
+        <div class="card" style="width: 18rem;">
+          <img src="https://cdn.pixabay.com/photo/2018/02/19/21/55/eating-3166385_1280.jpg" class="card-img-top" alt="Cofee Table
+          " width="100%" height="350px">
+          <div class="card-body">
+            <h5 class="card-title">Cofee Table
+            </h5>
+            <p class="card-text">From Rs 9,999</p>
+            <a href="#" class="btn btn-primary">Buy Now</a>
+          </div>
+        </div>
+      </div>
+      <div class="col p-3">
+        <div class="card" style="width: 18rem;">
+          <img src="https://cdn.pixabay.com/photo/2016/02/15/16/35/seat-1201493_640.jpg" class="card-img-top" alt="Seating & Chairs
+          " width="100%" height="350px">
+          <div class="card-body">
+            <h5 class="card-title">Seating & Chairs
+            </h5>
+            <p class="card-text">From Rs 1,899</p>
+            <a href="#" class="btn btn-primary">Buy Now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row p-3 m-2 text-center" style="background: linear-gradient(#32554F,#457C60,#75A165);">
+      <div class="col p-3 mx-5">
+        <div class="card" style="width: 18rem;">
+          <img src="https://cdn.pixabay.com/photo/2024/07/15/04/24/ai-generated-8895614_640.jpg" class="card-img-top" alt="Office Chair" width="100%" height="350px">
+          <div class="card-body">
+            <h5 class="card-title">Office Chair</h5>
+            <p class="card-text">From Rs 5,299</p>
+            <a href="#" class="btn btn-primary">Buy Now</a>
+          </div>
+        </div>
+      </div>
+      <div class="col p-3">
+        <div class="card" style="width: 18rem;">
+          <img src="https://cdn.pixabay.com/photo/2020/09/08/19/10/lounge-5555652_640.jpg" class="card-img-top" alt="TV Units" width="100%" height="350px">
+          <div class="card-body">
+            <h5 class="card-title">TV Units</h5>
+            <p class="card-text">From Rs 14,899</p>
+            <a href="#" class="btn btn-primary">Buy Now</a>
+          </div>
+        </div>
+      </div>
+      <div class="col p-3">
+        <div class="card" style="width: 18rem;">
+          <img src="https://rukminim2.flixcart.com/image/416/416/xif0q/dressing-table/4/b/w/50-48-plywood-48-d-56-green-ng-decor-78-green-original-imaghgcmtuhc7exf.jpeg?q=70&crop=false" class="card-img-top" alt="makeup" width="100%" height="350px">
+          <div class="card-body">
+            <h5 class="Makeup table">Card title</h5>
+            <p class="card-text">From Rs 62,500</p>
+            <a href="#" class="btn btn-primary">Buy Now</a>
+          </div>
+        </div>
+      </div>
+      <div class="col p-3">
+        <div class="card" style="width: 18rem;">
+          <img src="https://www.royaloakindia.com/media/catalog/product/b/s/bs8001_3rd_june_.jpg?optimize=medium&bg-color=255,255,255&fit=bounds&height=500&width=800&canvas=800:500" class="card-img-top" alt="book" width="100%" height="350px">
+          <div class="card-body">
+            <h5 class="card-title">Book Shelf</h5>
+            <p class="card-text">From Rs 7,999</p>
+            <a href="#" class="btn btn-primary">Buy Now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <h3 style="font-family: Edu VIC WA NT Beginner, cursive; text-align: center;" class="mt-5"><u>95+ EXPERIENCE STORES ACROSS INDIA</u></h3>
+   <h3 style="font-family: Grey Qo, cursive;;text-align: center"><B>OFFER</B>  Get UPTO 10% OFF* on orders placed at your nearest stores</h3>
+
+   <!-- flip box -->
+
+   <div class="row mx-2">
+    <div class="col">
+      <div class="flip-box">
+        <div class="flip-box-inner">
+          <div class="flip-box-front">
+            <img src="shope1.jpg" alt="Punne" style="width:300px;height:200px">
+          </div>
+          <div class="flip-box-back">
+            <h2>Punne</h2>
+            <p>20 stores</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col"><div class="flip-box">
+      <div class="flip-box-inner">
+        <div class="flip-box-front">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrkt3cY7RBj6TfK2z86Pt4cwNYM3uYpl45Hw&s" alt="bangalore" style="width:300px;height:200px">
+        </div>
+        <div class="flip-box-back">
+          <h2>Bangalore</h2>
+          <p>15 stores</p>
+        </div>
+      </div>
+    </div></div>
+    <div class="col"><div class="flip-box">
+      <div class="flip-box-inner">
+        <div class="flip-box-front">
+          <img src="shope2.jpg" alt="delhi" style="width:300px;height:200px">
+        </div>
+        <div class="flip-box-back">
+          <h2>Delhi</h2>
+          <p>10 stores</p>
+        </div>
+      </div>
+    </div></div>
+    <div class="col"><div class="flip-box">
+      <div class="flip-box-inner">
+        <div class="flip-box-front">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkg58eYOjYo6oVSmyKo4QadAhlmdv7h6qlcQ&s" alt="mumbai" style="width:300px;height:200px">
+        </div>
+        <div class="flip-box-back">
+          <h2>Mumbai</h2>
+          <p>11 stores</p>
+        </div>
+      </div>
+    </div></div>
+    <div class="col"><div class="flip-box">
+      <div class="flip-box-inner">
+        <div class="flip-box-front">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXkr1zxuyEvbKMExGcarnvZPRB2ts5mJ2WoQ&s" alt="hydra" style="width:300px;height:200px">
+        </div>
+        <div class="flip-box-back">
+          <h2>Hydrabad</h2>
+          <p>17 stores</p>
+        </div>
+      </div>
+    </div></div>
+   </div>
+<br><br>
+   <div class="row mx-2">
+    <div class="col"><div class="flip-box">
+      <div class="flip-box-inner">
+        <div class="flip-box-front">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkg58eYOjYo6oVSmyKo4QadAhlmdv7h6qlcQ&s" alt="Paris" style="width:300px;height:200px">
+        </div>
+        <div class="flip-box-back">
+          <h2>Kerala</h2>
+          <p>10 stores</p>
+        </div>
+      </div>
+    </div></div>
+    <div class="col"><div class="flip-box">
+      <div class="flip-box-inner">
+        <div class="flip-box-front">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnX58ZR4cr02mJqvLdNGSyJAsLo0krTfxkTw&s" alt="Paris" style="width:300px;height:200px">
+        </div>
+        <div class="flip-box-back">
+          <h2>Tamil Nadu</h2>
+          <p>13 stores</p>
+        </div>
+      </div>
+    </div></div>
+    <div class="col"><div class="flip-box">
+      <div class="flip-box-inner">
+        <div class="flip-box-front">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkqQ0keKi-2xR33oo630m13g9gKSp0f2yuOA&s" alt="Paris" style="width:300px;height:200px">
+        </div>
+        <div class="flip-box-back">
+          <h2>Chenni</h2>
+          <p>18 stores</p>
+        </div>
+      </div>
+    </div></div>
+    <div class="col"><div class="flip-box">
+      <div class="flip-box-inner">
+        <div class="flip-box-front">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0Z3JhX2MpjGwDRISst4I4UikA3q6v54sE8g&s" alt="Paris" style="width:300px;height:200px">
+        </div>
+        <div class="flip-box-back">
+          <h2>Goa</h2>
+          <p>9 stores</p>
+        </div>
+      </div>
+    </div></div>
+    <div class="col"><div class="flip-box">
+      <div class="flip-box-inner">
+        <div class="flip-box-front">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4lKdqCSKFkh95zigvslNbzNUMRso5mLzN6w&s" alt="Paris" style="width:300px;height:200px">
+        </div>
+        <div class="flip-box-back">
+          <h2>Gurgaon</h2>
+          <p>12 stores</p>
+        </div>
+      </div>
+    </div></div>
+   </div>
+<section>
+  <div>
+   <h3 style="font-family: Edu VIC WA NT Beginner, cursive; text-align: center;" class="mt-5"><u>THEIR WORDS, OUR PRIDE</u></h3>
+   <h3 style="font-family: Grey Qo, cursive;;text-align: center">Happy words of our Happy Coustomers</h3>
+
+   <div class="row m-5">
+    <div class="col-2"><div class="card" style="width: 12rem;">
+      <img src="cust 1.jpg" class="card-img-top" alt="bed" width="100%" height="150px">
+      <div class="card-body">
+        <a href="#" class="btn btn-primary">Veiw Product Details</a>
+        <p class="card-text text-justify" style="font-family: Cormorant Garamond, serif;">I recently purchased a bed from Shop Aurora, and I am thoroughly impressed with the quality and comfort❤️. The craftsmanship is excellent, and it adds a modern touch to my room. The bed was easy to assemble, and it provides exceptional support for a restful night's sleep. Highly recommended for anyone looking for a stylish and durable bed!💕 <br>
+          <i class="fa-solid fa-star text-warning"></i>
+          <i class="fa-solid fa-star text-warning"></i>
+          <i class="fa-solid fa-star text-warning"></i>
+          <i class="fa-solid fa-star text-warning"></i>
+          <i class="fa-solid fa-star text-warning"></i>
+          <br>
+          Rehma Rakhav
+          <br>
+          <b>Kerala</b>
+
+        </p>
+      </div>
+    </div></div>
+    <div class="col-2"><div class="card" style="width: 12rem;">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJdQAr_2B4wQ5iIPaUuAoM4dx3KIDxKFwpXA&s" class="card-img-top" alt="sofa" width="100%" height="150px">
+      <div class="card-body">
+        <a href="#" class="btn btn-primary">Veiw Product Details</a>
+        <p class="card-text text-justify" style="font-family: Cormorant Garamond, serif;">I purchased a sofa from Shop Aurora, and it has exceeded my expectations😍. The design is sleek, and the comfort level is outstanding. The materials feel premium, and it fits perfectly in my living room. It's both stylish and cozy, making it a great addition to any space👍. Highly recommended for anyone seeking quality and elegance!
+          <br>
+          <i class="fa-solid fa-star text-warning"></i>
+          <i class="fa-solid fa-star text-warning"></i>
+          <i class="fa-solid fa-star text-warning"></i>
+          <i class="fa-solid fa-star text-warning"></i>
+          <i class="fa-solid fa-star text-warning"></i>
+          <br>
+          Asha Ashok
+          <br>
+          <b>Delhi</b>
+        </p>
+      </div>
+    </div></div>
+    <div class="col-2"><div class="card" style="width: 12rem;">
+      <img src="cust3.jpg" class="card-img-top" alt="sofa" width="100%" height="150px">
+      <div class="card-body">
+        <a href="#" class="btn btn-primary">Veiw Product Details</a>
+        <p class="card-text text-justify" style="font-family: Cormorant Garamond, serif;">I bought a table from Shop Aurora😊, and I'm extremely satisfied with the purchase. The table is beautifully designed, sturdy, and fits perfectly in my space👌. The quality of the materials used is excellent, ensuring long-lasting durability. It was easy to assemble, and the overall experience was fantastic. I highly recommend this table to anyone looking for quality furniture.
+          <br>
+          <i class="fa-solid fa-star text-warning"></i>
+          <i class="fa-solid fa-star text-warning"></i>
+          <i class="fa-solid fa-star text-warning"></i>
+          <i class="fa-solid fa-star text-warning"></i>
+          <i class="fa-solid fa-star text-warning"></i>
+          <br>
+          Shreenu Pareekh
+          <br>
+          <b>Mumbai</b>
+        </p>
+      </div>
+    </div></div>
+    <div class="col-2"><div class="card" style="width: 12rem;">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-jsj97MVTZT-q7IEHxftPyTaZMSwbWTe1QQ&s" class="card-img-top" alt="sofa" width="100%" height="150px">
+      <div class="card-body">
+        <a href="#" class="btn btn-primary">Veiw Product Details</a>
+        <p class="card-text text-justify" style="font-family: Cormorant Garamond, serif;">I purchased a chair from Shop Aurora, and it has quickly become my favorite piece of furniture👍. The chair combines comfort with a sleek, modern design that enhances my living space. The build quality is impressive, providing excellent support and durability. Delivery was swift, and assembly was simple😁. I highly recommend this chair for both style and comfort.
+          <br>
+          <i class="fa-solid fa-star text-warning"></i>
+          <i class="fa-solid fa-star text-warning"></i>
+          <i class="fa-solid fa-star text-warning"></i>
+          <i class="fa-solid fa-star text-warning"></i>
+          <i class="fa-solid fa-star text-warning"></i>
+          <br>
+          Mohan Raik Varma
+          <br>
+          <b>Pnne</b>
+        </p>
+      </div>
+    </div></div>
+    <div class="col-2"><div class="card" style="width: 12rem;">
+      <img src="cust 4.jpg" class="card-img-top" alt="sofa" width="100%" height="150px">
+      <div class="card-body">
+        <a href="#" class="btn btn-primary">Veiw Product Details</a>
+        <p class="card-text text-justify" style="font-family: Cormorant Garamond, serif;">I recently bought a wardrobe from Shop Aurora, and I'm very satisfied with my purchase. The build quality is robust, and the design is modern and functional👍. It offers ample storage space, and the finish is elegant, adding a stylish touch to my room. It's a great value for the price, and I highly recommend it😊!
+          <br>
+          <i class="fa-solid fa-star text-warning"></i>
+          <i class="fa-solid fa-star text-warning"></i>
+          <i class="fa-solid fa-star text-warning"></i>
+          <i class="fa-solid fa-star text-warning"></i>
+          <i class="fa-solid fa-star text-warning"></i>
+          <br>
+          Rohith Zeikh
+          <br>
+          <b>Bangalore</b>
+        </p>
+      </div>
+    </div></div>
+    <div class="col-2"><div class="card" style="width: 12rem;">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBaEFoYEn83hz0mYNGcxcAe2VZJnHqPk3Njg&s" class="card-img-top" alt="sofa" width="100%" height="150px">
+      <div class="card-body">
+        <a href="#" class="btn btn-primary">Veiw Product Details</a>
+        <p class="card-text text-justify" style="font-family: Cormorant Garamond, serif;">I recently purchased a light from Shop Aurora❤️, and it's been a fantastic addition to my home. The design is modern and stylish, providing excellent illumination. It's easy to install and enhances the ambiance of any room🥰. The quality is impressive, and it adds a warm, inviting glow to my space. Highly recommended for anyone seeking a stylish lighting solution!
+          <br>
+          <i class="fa-solid fa-star text-warning"></i>
+          <i class="fa-solid fa-star text-warning"></i>
+          <i class="fa-solid fa-star text-warning"></i>
+          <i class="fa-solid fa-star text-warning"></i>
+          <i class="fa-solid fa-star text-warning"></i>
+          <br>
+          Meih Madu Sharma
+          <br>
+          <b>Hydrabadh</b>
+        </p>
+      </div>
+    </div></div>
+   </div>
+  </div>
+  </section>
+
+ <div class="row m-5 p5 mx-5 text-center">
+  <div class="col-2"><i class="fa-solid fa-house"></i><h4>95+ Experice Stores Across India</h4></div>
+  <div class="col-2"><i class="fa-solid fa-truck"></i><h4>350+ Delivery Centers Across India</h4></div>
+  <div class="col-2"><i class="fa-solid fa-thumbs-up"></i><h4>10 Lakh+ Satisfied Customersh </h4></div>
+  <div class="col-2"><i class="fa-solid fa-certificate"></i><h4>Lowest Price</h4><h7>Guarantee</h7></div>
+  <div class="col-2"><i class="fa-solid fa-thumbs-up"></i><h4>36 Monts</h4><h7>Warrenty</h7></div>
+ </div>
+
+ <div class="row bg-dark text-light p-3">
+  <div class="col-2 my-2 p-3"><h1 style="font-family: Anton, sans-serif; text-align: center;"> Auora <i class="fa-solid fa-couch"></i></h1></div>
+  <div class="col-2 p-3"><h2 style="font-family: Edu VIC WA NT Beginner, cursive;"><u>Our Company</u></h2> <h5 style="font-family: Edu VIC WA NT Beginner, cursive;">About US <br>
+  Career <br>
+Media <br>
+Blog <br>
+Customer Stories <br>
+Our Stores</h5></div>
+
+  <div class="col-2 p-3"><h2 style="font-family: Edu VIC WA NT Beginner, cursive;"><u>Useful Links</u></h2> <h5 style="font-family: Edu VIC WA NT Beginner, cursive;">Custom Furniture<br>
+    Expoters<br>
+  Buy in Bulk<br>
+  Hotel Furniture<br>
+  Delivary Location <br>
+  Sitemap</h5></div>
+
+  <div class="col-2 p-3"><h2 style="font-family: Edu VIC WA NT Beginner, cursive;"><u>Shop By Room</u></h2> <h5 style="font-family: Edu VIC WA NT Beginner, cursive;">Living Room<br>
+  Bedroom<br>
+  Dining Room
+  Kids Room<br>
+  Modular Furniture<br>
+  Modular Kitchen <br>
+  Modular Wardrobe</h5></div>
+  <div class="col-2 p-3"><h2 style="font-family: Edu VIC WA NT Beginner, cursive;"><u>Need Help</u></h2> <h5 style="font-family: Edu VIC WA NT Beginner, cursive;">Help Center<br>
+    Contact US<br>
+    Ask Experts <br>
+    Track Your Order<br>
+    </div>
+    <div class="col-2 p-3">
+<a href="#"> <img src="whatsapp-removebg-preview.png" alt="whatsapp" width="50px" height="40px"></a>
+<a href="#"><img src="insta_logo-removebg-preview.png" alt="insta" width="60px" height="50px"></a>
+<a href="#"><img src="facebook_logo-removebg-preview.png" alt="facebook" width="50px" height="40px"></a>
+</div>
+ </div>
+</body>
+</html>
